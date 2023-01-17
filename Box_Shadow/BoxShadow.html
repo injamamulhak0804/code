@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box_Shadow</title>
+    <link rel="stylesheet" href="BoxShadow.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Zamam Tools</div>
+        </nav>
+    </header>
+    <div class="parentcontainer">
+        <div class="childonecontainer">
+            <h3 class="header">Box Shadow Options</h3>
+            <div class="properties">
+                <div class="range-groups LR">
+                    <p>Horizontal Shadow Length <span id="valueforLR"> 10px</span></p>
+                    <input type="range" value="10" min="-100" max="100" id="lr">
+                </div>
+                <div class="range-groups TB">
+                    <p>Vertical Shadow Length <span id="valueforTB"> 10px</span></p>
+                    <input type="range" value="10" min="-100" max="100" id="tb">
+                </div>
+                <div class="range-groups Blur">
+                    <p>Blur Radius <span id="valueforBlur"> 10px</span></p>
+                    <input type="range" value="10" min="5" max="100" id="Blur_radius">
+                </div>
+                <div class="range-groups Spread">
+                    <p>Spread Radius <span id="valueforSradius"> 10px</span></p>
+                    <input type="range" value="10" min="-100" max="100" id="Sradius">
+                </div>
+                <div class="range-groups Opacity">
+                    <p>Shadow Opacity <span id="valueforopacity">0.99%</span></p>
+                    <input type="range" value="99" min="1" max="99" id="opacity">
+                </div>
+                <div class="range-groups Color">
+                    <p style="display: inline;">Shadow Color</p> <input type="color" name="" id="color">
+
+                </div>
+            </div>
+        </div>
+        <div class="childtwocontainer">
+            <div class="box" id="box"></div>
+            <div class="codecontainer">
+                <div class="boxshadowcode">box-shadow:
+                    <span id="copylr"> 10px</span>
+                    <span id="copytb">10px</span>
+                    <span id="copyblur">10px</span>
+                    <span id="copySradius">10px</span>
+                    <span>rgba(0,0,0,<span id="copyopacity">0.99</span>)</span>;
+                </div>
+                <button id="copyBtn">Copy</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="BoxShadow..js"></script>
+</body>
+
+</html>

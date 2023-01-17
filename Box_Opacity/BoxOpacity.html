@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BoxOpacity.css">
+</head>
+
+<body>
+    <section class="opacity_Genertaor_Wrapper">
+        <div class="properties">
+            <h1>Properties</h1>
+            <div class="form-group">
+                <h4>Box Size <span id="valueBox">200px</span> </h4>
+                <input type="range" id="box_size" max="500" min="10" value="200">
+            </div>
+            <div class="form-group">
+                <h4>Box Opacity <span id="valueOpacity">100%</span> </h4>
+                <input type="range" id="box_opacity" min="5" max="100" value="100">
+            </div>
+        </div>
+        <div class="container">
+            <div id="box" class="box"></div>
+            <div class="code_container">
+                <div class="textareas">
+                    <textarea id="Copytextarea" class="Copytextarea" cols="20" rows="5"></textarea>
+                </div>
+                <button  class="copy">Copy</button>
+            </div>
+        </div>
+    </section>
+                         
+
+    <script src="BoxOpacity.js"></script>
+</body>
+
+</html>

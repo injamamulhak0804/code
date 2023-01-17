@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.properties{
+    background-color: blueviolet;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+h1{
+    padding-bottom: 90px;
+    text-align: center;
+}
+.form-group{
+    padding-left: 117px;
+}
+.form-group > h2{
+    padding-bottom: 10px;
+}
+.form-group > input {
+    text-align: center;
+    width: 90%;
+}
+#valueBox{
+    background-color: white;
+    margin-left: 20px;
+    width: 30px;
+    padding: 0px 10px 0px 10px;
+}
+#valueOpacity{
+    background-color: white;
+    margin-left: 20px;
+    width: 30px;
+    padding: 0px 10px 0px 10px;
+}
+.box{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color:rgb(226, 217, 209);
+}
+.container{
+    background-color: blueviolet;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 580px;
+    z-index: -3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.code_container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.copy{
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline-style: none;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.Copytextarea{
+    resize: none;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.textareas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+
